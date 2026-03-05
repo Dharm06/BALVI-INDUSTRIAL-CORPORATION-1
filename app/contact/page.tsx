@@ -1,11 +1,9 @@
 "use client";
 
-export const dynamic = "force-dynamic";
-
+import { Suspense, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { useState } from "react";
 
-export default function ContactPage() {
+function ContactForm() {
   const searchParams = useSearchParams();
   const product = searchParams.get("product");
 
@@ -77,5 +75,13 @@ export default function ContactPage() {
         </button>
       </form>
     </div>
+  );
+}
+
+export default function ContactPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ContactForm />
+    </Suspense>
   );
 }
