@@ -1,6 +1,6 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Phone } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Phone } from "lucide-react";
 
 export function CtaSection() {
   return (
@@ -23,8 +23,9 @@ export function CtaSection() {
           Partner with a Trusted Industrial Manufacturer in India
         </h2>
         <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-primary-foreground/70">
-          From prototype to production, we deliver precision-engineered components
-          that meet international quality standards. Let us power your next project.
+          From prototype to production, we deliver precision-engineered
+          components that meet international quality standards. Let us power
+          your next project.
         </p>
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button
@@ -32,7 +33,7 @@ export function CtaSection() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-base"
           >
-            <Link href="#contact">
+            <Link href="https://wa.me/919824248209?text=${encodeURIComponent(">
               Request a Quote
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
@@ -51,5 +52,5 @@ export function CtaSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
