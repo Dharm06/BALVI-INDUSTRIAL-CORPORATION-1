@@ -1,18 +1,17 @@
-import { Globe, MapPin } from "lucide-react"
+import { Globe, MapPin } from "lucide-react";
 
 const internationalClients = [
   { name: "Al Jazeera Steel Products", location: "Oman" },
   { name: "Ajmal Pipes", location: "Dubai" },
   { name: "TSI Metal Industries", location: "Abu Dhabi" },
-]
+];
 
 const domesticClients = [
   { name: "Jyoti CNC Automation Ltd." },
   { name: "Surya Roshni Ltd." },
   { name: "Bajrang Power & Ispat Ltd." },
   { name: "Apollo Pipes Ltd." },
-  { name: "R.E. Component Pvt Ltd." },
-]
+];
 
 export function ClientsSection() {
   return (
@@ -26,8 +25,8 @@ export function ClientsSection() {
             Trusted by Industry Leaders
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            We are proud to serve leading enterprises across India and the Middle East
-            with precision-engineered components.
+            We are proud to serve leading enterprises across India and the
+            Middle East with precision-engineered components.
           </p>
         </div>
 
@@ -46,7 +45,9 @@ export function ClientsSection() {
                   key={client.name}
                   className="flex items-center justify-between rounded-lg border border-border bg-card px-6 py-4 transition-colors hover:border-primary/30"
                 >
-                  <span className="font-medium text-foreground">{client.name}</span>
+                  <span className="font-medium text-foreground">
+                    {client.name}
+                  </span>
                   <span className="flex items-center gap-1.5 text-sm text-muted-foreground">
                     <MapPin className="h-3.5 w-3.5" />
                     {client.location}
@@ -70,7 +71,9 @@ export function ClientsSection() {
                   key={client.name}
                   className="flex items-center rounded-lg border border-border bg-card px-6 py-4 transition-colors hover:border-primary/30"
                 >
-                  <span className="font-medium text-foreground">{client.name}</span>
+                  <span className="font-medium text-foreground">
+                    {client.name}
+                  </span>
                 </div>
               ))}
             </div>
@@ -78,5 +81,5 @@ export function ClientsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

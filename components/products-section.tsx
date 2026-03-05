@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { ArrowUpRight } from "lucide-react"
+import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
 
 const products = [
   {
@@ -9,7 +9,7 @@ const products = [
     image: "/images/automobile-components.jpg",
   },
   {
-    title: "Machine Tool Components",
+    title: "Machinery Components",
     description:
       "CNC machined tool holders, spindle parts, jigs, fixtures, and precision components for industrial machinery and equipment.",
     image: "/images/machine-tool-components.jpg",
@@ -20,7 +20,7 @@ const products = [
       "Industrial-grade pipe fittings, flanges, valve bodies, pump impellers, and custom cast components for fluid handling systems.",
     image: "/images/pipe-fittings.jpg",
   },
-]
+];
 
 export function ProductsSection() {
   return (
@@ -34,8 +34,8 @@ export function ProductsSection() {
             Product Categories
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Comprehensive range of industrial components manufactured with state-of-the-art
-            technology and rigorous quality control.
+            Comprehensive range of industrial components manufactured with
+            state-of-the-art technology and rigorous quality control.
           </p>
         </div>
 
@@ -70,5 +70,5 @@ export function ProductsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
