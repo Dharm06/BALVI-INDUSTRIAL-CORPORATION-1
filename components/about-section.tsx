@@ -8,12 +8,6 @@ const stats = [
     description: "Over a decade of industrial excellence",
   },
   {
-    icon: TrendingUp,
-    value: "25+ Cr",
-    label: "Annual Turnover",
-    description: "Consistent growth and financial strength",
-  },
-  {
     icon: Award,
     value: "100+",
     label: "Products",
