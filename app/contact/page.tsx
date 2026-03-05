@@ -1,19 +1,7 @@
-export default function ContactPage({
-  searchParams,
-}: {
-  searchParams: { product?: string };
-}) {
-  const product = searchParams?.product;
-
+export default function ContactPage() {
   return (
     <div className="max-w-3xl mx-auto py-16 px-4">
-      <h1 className="text-3xl font-bold mb-6">Product Inquiry</h1>
-
-      {product && (
-        <p className="mb-4 text-blue-600">
-          Inquiry for: <strong>{product}</strong>
-        </p>
-      )}
+      <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
 
       <form
         onSubmit={(e) => {
