@@ -1,27 +1,9 @@
-"use client";
-
-import { Suspense, useState } from "react";
-import { useSearchParams } from "next/navigation";
-
-function ContactForm() {
-  const searchParams = useSearchParams();
-  const product = searchParams.get("product");
-
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const handleChange = (e: any) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    alert("Inquiry submitted successfully!");
-  };
+export default function ContactPage({
+  searchParams,
+}: {
+  searchParams: { product?: string };
+}) {
+  const product = searchParams?.product;
 
   return (
     <div className="max-w-3xl mx-auto py-16 px-4">
@@ -33,12 +15,17 @@ function ContactForm() {
         </p>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          alert("Inquiry submitted successfully!");
+        }}
+        className="space-y-4"
+      >
         <input
           name="name"
           placeholder="Your Name"
           className="w-full border p-3 rounded"
-          onChange={handleChange}
           required
         />
 
@@ -47,7 +34,6 @@ function ContactForm() {
           type="email"
           placeholder="Your Email"
           className="w-full border p-3 rounded"
-          onChange={handleChange}
           required
         />
 
@@ -55,7 +41,6 @@ function ContactForm() {
           name="phone"
           placeholder="Your Phone"
           className="w-full border p-3 rounded"
-          onChange={handleChange}
         />
 
         <textarea
@@ -63,7 +48,6 @@ function ContactForm() {
           placeholder="Your Message"
           className="w-full border p-3 rounded"
           rows={4}
-          onChange={handleChange}
           required
         />
 
@@ -75,13 +59,5 @@ function ContactForm() {
         </button>
       </form>
     </div>
-  );
-}
-
-export default function ContactPage() {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <ContactForm />
-    </Suspense>
   );
 }
