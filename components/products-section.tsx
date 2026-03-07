@@ -19,6 +19,17 @@ const products = [
     description:
       "Industrial-grade pipe fittings, flanges, valve bodies, pump impellers, and custom cast components for fluid handling systems.",
     image: "/images/pipe-fittings.jpg",
+
+    specifications: [
+      "Standard: IS 1239 PT 2 & BS 21:1985",
+      "Standard: ASTM A865",
+      "Thread Quality: CNC Machining",
+      "Steel Grade: As specified by standard",
+      "Zinc Coating: As specified by standard",
+      "Tensile Strength: 320 / 450 MPa",
+      "Hardness: 100 / 140 VPN",
+      "Material: Welded / Seamless",
+    ],
   },
 ];
 

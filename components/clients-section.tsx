@@ -7,6 +7,7 @@ const internationalClients = [
 ];
 
 const domesticClients = [
+  { name: "GoodLuck India Limited" },
   { name: "Jyoti CNC Automation Ltd." },
   { name: "Surya Roshni Ltd." },
   { name: "Bajrang Power & Ispat Ltd." },

@@ -1,5 +1,6 @@
-import Link from "next/link"
-import { Factory, MapPin, Mail, Phone } from "lucide-react"
+import Link from "next/link";
+import { Factory, MapPin, Mail, Phone } from "lucide-react";
+import Image from "next/image";
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -8,13 +9,19 @@ const quickLinks = [
   { label: "Capabilities", href: "/#capabilities" },
   { label: "Clients", href: "/#clients" },
   { label: "Contact", href: "/#contact" },
-]
+];
 
 const products = [
   { label: "Automobile Components", href: "/products#automobile-components" },
-  { label: "Machine Tool Components", href: "/products#machine-tool-components" },
-  { label: "Pipe Fittings & Pump Parts", href: "/products#pipe-fittings-pump-parts" },
-]
+  {
+    label: "Machine Tool Components",
+    href: "/products#machine-tool-components",
+  },
+  {
+    label: "Pipe Fittings & Pump Parts",
+    href: "/products#pipe-fittings-pump-parts",
+  },
+];
 
 export function Footer() {
   return (
@@ -23,15 +30,22 @@ export function Footer() {
         <div className="grid gap-12 pb-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="mb-5 flex items-center gap-2.5">
-              <Factory className="h-7 w-7 text-primary" />
+            <div className="mb-5 flex items-center gap-3">
+              <Image
+                src="/balvi-logo.png"
+                alt="Balvi Industrial Corporation"
+                width={40}
+                height={40}
+                className="object-contain"
+              />
               <span className="text-lg font-bold text-primary-foreground font-serif">
                 Balvi Industrial Corporation
               </span>
             </div>
             <p className="mb-6 text-sm leading-relaxed text-primary-foreground/60">
-              Where innovation meets excellence. A trusted manufacturer of precision
-              industrial components serving clients across India and the Middle East.
+              Where innovation meets excellence. A trusted manufacturer of
+              precision industrial components serving clients across India and
+              the Middle East.
             </p>
           </div>
 
@@ -40,7 +54,10 @@ export function Footer() {
             <h4 className="mb-5 text-sm font-semibold uppercase tracking-wider text-primary">
               Quick Links
             </h4>
-            <nav className="flex flex-col gap-3" aria-label="Footer quick links">
+            <nav
+              className="flex flex-col gap-3"
+              aria-label="Footer quick links"
+            >
               {quickLinks.map((link) => (
                 <Link
                   key={link.label}
@@ -58,7 +75,10 @@ export function Footer() {
             <h4 className="mb-5 text-sm font-semibold uppercase tracking-wider text-primary">
               Products
             </h4>
-            <nav className="flex flex-col gap-3" aria-label="Product categories">
+            <nav
+              className="flex flex-col gap-3"
+              aria-label="Product categories"
+            >
               {products.map((product) => (
                 <Link
                   key={product.label}
@@ -109,6 +129,24 @@ export function Footer() {
                   >
                     +91 98765 43211
                   </a>
+                  <a
+                    href="tel:+919876543211"
+                    className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
+                  >
+                    +91 998242 48209
+                  </a>
+                  <a
+                    href="tel:+919876543211"
+                    className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
+                  >
+                    +91 99898 048209
+                  </a>
+                  <a
+                    href="tel:+919876543211"
+                    className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
+                  >
+                    +91 88660 48209
+                  </a>
                 </div>
               </div>
             </div>
@@ -127,5 +165,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

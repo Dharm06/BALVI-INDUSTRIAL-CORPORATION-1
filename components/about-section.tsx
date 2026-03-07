@@ -9,6 +9,13 @@ const stats = [
   },
   {
     icon: Award,
+    title: "ISO",
+    label: "Certified",
+    description:
+      "Balvi Industrial Corporation follows strict quality standards and manufacturing processes to ensure precision, reliability, and consistency in every product we deliver.",
+  },
+  {
+    icon: Award,
     value: "100+",
     label: "Products",
     description: "Wide range of precision components",

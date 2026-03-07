@@ -1,13 +1,14 @@
 export interface Product {
-  name: string
-  description: string
+  name: string;
+  description: string;
 }
 
 export interface ProductCategory {
-  id: string
-  title: string
-  description: string
-  products: Product[]
+  id: string;
+  title: string;
+  description: string;
+  products: Product[];
+  specifications?: string[];
 }
 
 export const productCategories: ProductCategory[] = [
@@ -132,6 +133,17 @@ export const productCategories: ProductCategory[] = [
     title: "Pipe Fittings & Pump Parts",
     description:
       "Industrial-grade pipe fittings and pump components for fluid handling systems, manufactured to international standards.",
+    specifications: [
+      "Standard: IS 1239 PT 2 & BS 21:1985",
+      "Standard: ASTM A865",
+      "Thread Quality: CNC Machining",
+      "Steel Grade: As specified by standard",
+      "Zinc Coating: As specified by standard",
+      "Tensile Strength: 320 / 450 MPa",
+      "Hardness: 100 / 140 VPN",
+      "Material: Welded / Seamless",
+    ],
+
     products: [
       {
         name: "Galvanized Socket",
@@ -170,4 +182,4 @@ export const productCategories: ProductCategory[] = [
       },
     ],
   },
-]
+];

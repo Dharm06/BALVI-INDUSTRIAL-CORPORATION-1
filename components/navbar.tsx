@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, Factory } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -22,13 +23,18 @@ export function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-foreground/95 backdrop-blur-md border-b border-foreground/10">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-2.5">
-          <Factory className="h-7 w-7 text-primary" />
+        <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/balvi-logo.png"
+            alt="Balvi Industrial Corporation"
+            width={40}
+            height={40}
+            className="object-contain"
+          />
           <span className="text-lg font-bold tracking-tight text-primary-foreground font-serif">
             BALVI INDUSTRIAL CORPORATION
           </span>
         </Link>
-
         <nav
           className="hidden items-center gap-8 lg:flex"
           aria-label="Main navigation"
