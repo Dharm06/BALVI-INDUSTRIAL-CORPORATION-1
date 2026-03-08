@@ -100,9 +100,9 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <span className="text-sm leading-relaxed text-primary-foreground/60">
-                  GIDC Lodhika, Metoda,
+                  2nd Gate, Plot No, G 1611, GIDC,
                   <br />
-                  Rajkot, Gujarat, India
+                  Metoda, Rajkot, Gujarat 360021
                 </span>
               </div>
               <div className="flex items-center gap-3">
@@ -147,7 +147,7 @@ export function Footer() {
               {"© 2026 Balvi Industrial Corporation. All rights reserved."}
             </p>
             <p className="text-xs text-primary-foreground/40">
-              GIDC Lodhika, Metoda, Rajkot, Gujarat, India
+              2nd Gate, Plot No, G 1611, GIDC, Metoda, Rajkot, Gujarat 360021
             </p>
           </div>
         </div>
