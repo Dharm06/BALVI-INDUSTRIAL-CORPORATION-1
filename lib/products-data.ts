@@ -1,6 +1,7 @@
 export interface Product {
   name: string;
   description: string;
+  image: string;
 }
 
 export interface ProductCategory {
@@ -19,39 +20,64 @@ export const productCategories: ProductCategory[] = [
       "High-precision automobile parts manufactured to exacting OEM standards with CNC machining technology.",
     products: [
       {
-        name: "Bush",
-        description:
-          "Precision-machined bushings for automotive suspension and drivetrain applications, ensuring smooth operation and long service life.",
+        name: "",
+        description: "",
+        image: "/images/001.jpg",
       },
       {
-        name: "Hub Lock Nut",
-        description:
-          "Heavy-duty hub lock nuts engineered for secure wheel hub assemblies, designed to withstand extreme torque and vibration.",
+        name: "",
+        description: "",
+        image: "/images/002.jpg",
       },
       {
-        name: "Upper Lower Washer",
-        description:
-          "Precision-ground upper and lower washers for automotive assemblies, manufactured to tight tolerances for optimal load distribution.",
+        name: "",
+        description: "",
+        image: "/images/003.jpg",
       },
       {
-        name: "Spacer Table Shaft",
-        description:
-          "CNC-machined spacer table shafts for drivetrain and transmission components, delivering precision fit and alignment.",
+        name: "",
+        description: "",
+        image: "/images/004.jpg",
       },
       {
-        name: "Spacer Oil Sling",
-        description:
-          "Engineered oil sling spacers for effective lubrication management in rotating automotive assemblies.",
+        name: "",
+        description: "",
+        image: "/images/005.jpg",
       },
       {
-        name: "Spacer RI Shaft",
-        description:
-          "High-tolerance RI shaft spacers designed for critical automotive shaft assemblies requiring exact dimensional accuracy.",
+        name: "",
+        description: "",
+        image: "/images/006.jpg",
       },
       {
-        name: "Muff Ring",
-        description:
-          "Precision muff rings for coupling and shaft connection applications, machined for secure interference fits.",
+        name: "",
+        description: "",
+        image: "/images/007.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/008.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/009.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/0010.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/0011.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/0012.jpg",
       },
     ],
   },
@@ -62,69 +88,64 @@ export const productCategories: ProductCategory[] = [
       "Industrial-grade machine tool parts engineered for precision, durability, and reliable performance in demanding environments.",
     products: [
       {
-        name: "Leveling Screw",
-        description:
-          "Precision leveling screws for machine tool bases, enabling fine adjustment and stable positioning of heavy equipment.",
+        name: "",
+        description: "",
+        image: "/images/0013.jpg",
       },
       {
-        name: "Foundation Bolt",
-        description:
-          "High-strength foundation bolts for secure machine tool mounting, engineered to absorb vibration and maintain alignment.",
+        name: "",
+        description: "",
+        image: "/images/0014.jpg",
       },
       {
-        name: "Leveling Washer",
-        description:
-          "Precision-ground leveling washers for accurate machine bed adjustment, ensuring optimal surface alignment.",
+        name: "",
+        description: "",
+        image: "/images/0015.jpg",
       },
       {
-        name: "Chain Sprocket",
-        description:
-          "CNC-machined chain sprockets for power transmission systems, manufactured with hardened teeth for extended wear life.",
+        name: "",
+        description: "",
+        image: "/images/0016.jpg",
       },
       {
-        name: "Middle Spacer",
-        description:
-          "Precision middle spacers for spindle and shaft assemblies, maintaining critical dimensional spacing in machine tools.",
+        name: "",
+        description: "",
+        image: "/images/0017.jpg",
       },
       {
-        name: "Shaft Ball",
-        description:
-          "High-precision shaft balls for bearing and spindle applications, ground to exacting sphericity and surface finish standards.",
+        name: "",
+        description: "",
+        image: "/images/0018.jpg",
       },
       {
-        name: "Tool Disk Plug",
-        description:
-          "Engineered tool disk plugs for CNC tool changers and turret assemblies, ensuring reliable tool retention.",
+        name: "",
+        description: "",
+        image: "/images/0019.jpg",
       },
       {
-        name: "Out Centering Ring",
-        description:
-          "Precision centering rings for tool holder and spindle alignment, critical for achieving tight machining tolerances.",
+        name: "",
+        description: "",
+        image: "/images/0020.jpg",
       },
       {
-        name: "Bearing Cover",
-        description:
-          "Precision-machined bearing covers for spindle protection, designed to seal and protect bearing assemblies from contamination.",
+        name: "",
+        description: "",
+        image: "/images/0021.jpg",
       },
       {
-        name: "Leveling Nut",
-        description:
-          "Heavy-duty leveling nuts for machine tool installation, providing secure and adjustable base leveling.",
+        name: "",
+        description: "",
+        image: "/images/0022.jpg",
       },
       {
-        name: "Drawbar Nut",
-        description:
-          "High-precision drawbar nuts for CNC spindle assemblies, engineered for reliable tool clamping force.",
+        name: "",
+        description: "",
+        image: "/images/0023.jpg",
       },
       {
-        name: "Lock Nut 1",
-        description:
-          "Precision lock nuts (Type 1) for preloaded bearing assemblies, preventing rotational loosening under vibration.",
-      },
-      {
-        name: "Lock Nut 2",
-        description:
-          "Precision lock nuts (Type 2) for spindle and shaft retention, designed with enhanced locking features.",
+        name: "",
+        description: "",
+        image: "/images/0024.jpg",
       },
     ],
   },
@@ -146,39 +167,64 @@ export const productCategories: ProductCategory[] = [
 
     products: [
       {
-        name: "Galvanized Socket",
-        description:
-          "Corrosion-resistant galvanized sockets for plumbing and industrial piping systems, providing secure threaded connections.",
+        name: "",
+        description: "",
+        image: "/images/0025.jpg",
       },
       {
-        name: "Black Socket",
-        description:
-          "Heavy-duty black iron sockets for industrial piping, ideal for steam, gas, and high-pressure fluid applications.",
+        name: "",
+        description: "",
+        image: "/images/0026.jpg",
       },
       {
-        name: "Plate Flange",
-        description:
-          "Precision-machined plate flanges for pipe connections, manufactured to ANSI/ASME standards with flat sealing surfaces.",
+        name: "",
+        description: "",
+        image: "/images/0027.jpg",
       },
       {
-        name: "Conical Flange",
-        description:
-          "Engineered conical flanges for specialized piping connections, providing self-centering alignment and reliable sealing.",
+        name: "",
+        description: "",
+        image: "/images/0028.jpg",
       },
       {
-        name: "Cable Slot Flange",
-        description:
-          "Specialized cable slot flanges with integrated cable routing, designed for instrumentation and electrical piping applications.",
+        name: "",
+        description: "",
+        image: "/images/0029.jpg",
       },
       {
-        name: "Spindle 1",
-        description:
-          "Precision pump spindles (Type 1) for rotary pump assemblies, machined to tight tolerances for efficient fluid transfer.",
+        name: "",
+        description: "",
+        image: "/images/0030.jpg",
       },
       {
-        name: "Spindle 2",
-        description:
-          "Precision pump spindles (Type 2) for high-performance pump applications, featuring enhanced surface finish and balance.",
+        name: "",
+        description: "",
+        image: "/images/0031.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/0032.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/0033.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/0034.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/0035.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/0036.jpg",
       },
     ],
   },

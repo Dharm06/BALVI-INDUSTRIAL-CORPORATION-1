@@ -118,18 +118,6 @@ export function Footer() {
                 <Phone className="h-4 w-4 shrink-0 text-primary" />
                 <div className="flex flex-col gap-1">
                   <a
-                    href="tel:+919876543210"
-                    className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
-                  >
-                    +91 98765 43210
-                  </a>
-                  <a
-                    href="tel:+919876543211"
-                    className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
-                  >
-                    +91 98765 43211
-                  </a>
-                  <a
                     href="tel:+919876543211"
                     className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
                   >
@@ -139,7 +127,7 @@ export function Footer() {
                     href="tel:+919876543211"
                     className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
                   >
-                    +91 99898 048209
+                    +91 9898 048209
                   </a>
                   <a
                     href="tel:+919876543211"
