@@ -18,7 +18,7 @@ const products = [
     title: "Pipe Fittings & Pump Parts",
     description:
       "Industrial-grade pipe fittings, flanges, valve bodies, pump impellers, and custom cast components for fluid handling systems.",
-    image: "/images/pipe-fittings.jpg",
+    image: "/images/pip-fitting.png",
 
     specifications: [
       "Standard: IS 1239 PT 2 & BS 21:1985",
