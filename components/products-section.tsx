@@ -6,19 +6,19 @@ const products = [
     title: "Automobile Components",
     description:
       "High-precision engine parts, transmission components, suspension elements, and custom auto parts manufactured to exacting OEM standards.",
-    image: "/images/automobile-components.jpg",
+    image: "/images/automobile-bg.png",
   },
   {
     title: "Machinery Components",
     description:
       "CNC machined tool holders, spindle parts, jigs, fixtures, and precision components for industrial machinery and equipment.",
-    image: "/images/machine-tool-components.jpg",
+    image: "/images/machiene-tool-bg.png",
   },
   {
     title: "Pipe Fittings & Pump Parts",
     description:
       "Industrial-grade pipe fittings, flanges, valve bodies, pump impellers, and custom cast components for fluid handling systems.",
-    image: "/images/pip-fitting.png",
+    image: "/images/pip-fiiting-bg.png",
 
     specifications: [
       "Standard: IS 1239 PT 2 & BS 21:1985",

@@ -52,13 +52,8 @@ export function Navbar() {
 
         <div className="hidden lg:block">
           <Button asChild>
-            <a
-              href={`https://wa.me/919824248209?text=${encodeURIComponent(
-                "Hello Balvi Industrial Corporation,%0A%0AI would like to request a quotation.%0APlease share pricing and details.%0A%0AThank you.",
-              )}`}
-              target="_blank"
-            >
-              Request Quote
+            <a href="/brochure.pdf" target="_blank">
+              Download Brochure
             </a>
           </Button>
         </div>
@@ -96,9 +91,9 @@ export function Navbar() {
               asChild
               className="mt-2 bg-primary text-primary-foreground hover:bg-primary/90"
             >
-              <Link href="/#contact" onClick={() => setMobileOpen(false)}>
-                Request a Quote
-              </Link>
+              <a href="/brochure.pdf" target="_blank" onClick={() => setMobileOpen(false)}>
+                Download Brochure
+              </a>
             </Button>
           </div>
         </nav>

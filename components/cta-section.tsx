@@ -33,10 +33,10 @@ export function CtaSection() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-base"
           >
-            <Link href="https://wa.me/919824248209?text=${encodeURIComponent(">
+            <a href="mailto:info@balviindustrialcorporation.com">
               Request a Quote
               <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
+            </a>
           </Button>
           <Button
             asChild
@@ -44,7 +44,7 @@ export function CtaSection() {
             variant="outline"
             className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground px-8 py-6 text-base"
           >
-            <Link href="tel:+919876543210">
+            <Link href="tel:+918866048209">
               <Phone className="mr-2 h-4 w-4" />
               Call Us Now
             </Link>

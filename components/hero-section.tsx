@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Eye } from "lucide-react"
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Eye } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -17,7 +17,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-foreground/80" />
 
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
-        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+        <p className="mb-4 text-lg font-bold uppercase tracking-[0.2em] text-primary">
           Where Innovation Meets Excellence
         </p>
         <h1 className="mb-6 text-balance font-serif text-4xl font-bold leading-tight tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
@@ -25,8 +25,9 @@ export function HeroSection() {
           <span className="text-primary">{"&"} Manufacturing</span>
         </h1>
         <p className="mx-auto mb-10 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/70 md:text-xl">
-          Delivering world-class automobile components, machine tool parts, and industrial
-          solutions with cutting-edge CNC machining technology since 2012.
+          Delivering world-class automobile components, machine tool parts, and
+          industrial solutions with cutting-edge CNC machining technology since
+          2012.
         </p>
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button
@@ -55,5 +56,5 @@ export function HeroSection() {
 
       <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
     </section>
-  )
+  );
 }

@@ -108,10 +108,10 @@ export function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-primary" />
                 <a
-                  href="mailto:info@balviindustrial.com"
+                  href="mailto:info@balviindustrialcorporation.com"
                   className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
                 >
-                  info@balviindustrial.com
+                  info@balviindustrialcorporation.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -124,10 +124,10 @@ export function Footer() {
                     +91 98242 48209
                   </a>
                   <a
-                    href="tel:+919876543211"
+                    href="tel:+919898048209"
                     className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
                   >
-                    +91 9898 048209
+                    +91 98980 48209
                   </a>
                   <a
                     href="tel:+919876543211"

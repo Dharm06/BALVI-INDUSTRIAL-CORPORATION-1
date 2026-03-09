@@ -79,6 +79,11 @@ export const productCategories: ProductCategory[] = [
         description: "",
         image: "/images/0012.jpg",
       },
+      {
+        name: "",
+        description: "",
+        image: "/images/0015.jpg",
+      },
     ],
   },
   {
@@ -100,11 +105,6 @@ export const productCategories: ProductCategory[] = [
       {
         name: "",
         description: "",
-        image: "/images/0015.jpg",
-      },
-      {
-        name: "",
-        description: "",
         image: "/images/0016.jpg",
       },
       {
@@ -112,11 +112,7 @@ export const productCategories: ProductCategory[] = [
         description: "",
         image: "/images/0017.jpg",
       },
-      {
-        name: "",
-        description: "",
-        image: "/images/0018.jpg",
-      },
+
       {
         name: "",
         description: "",
@@ -132,11 +128,7 @@ export const productCategories: ProductCategory[] = [
         description: "",
         image: "/images/0021.jpg",
       },
-      {
-        name: "",
-        description: "",
-        image: "/images/0022.jpg",
-      },
+
       {
         name: "",
         description: "",
@@ -166,21 +158,6 @@ export const productCategories: ProductCategory[] = [
     ],
 
     products: [
-      {
-        name: "",
-        description: "",
-        image: "/images/0025.jpg",
-      },
-      {
-        name: "",
-        description: "",
-        image: "/images/0026.jpg",
-      },
-      {
-        name: "",
-        description: "",
-        image: "/images/0027.jpg",
-      },
       {
         name: "",
         description: "",
@@ -215,16 +192,6 @@ export const productCategories: ProductCategory[] = [
         name: "",
         description: "",
         image: "/images/0034.jpg",
-      },
-      {
-        name: "",
-        description: "",
-        image: "/images/0035.jpg",
-      },
-      {
-        name: "",
-        description: "",
-        image: "/images/0036.jpg",
       },
     ],
   },
