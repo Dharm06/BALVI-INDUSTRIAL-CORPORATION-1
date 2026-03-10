@@ -24,11 +24,7 @@ export const productCategories: ProductCategory[] = [
         description: "",
         image: "/images/001.jpg",
       },
-      {
-        name: "",
-        description: "",
-        image: "/images/002.jpg",
-      },
+
       {
         name: "",
         description: "",
@@ -162,6 +158,11 @@ export const productCategories: ProductCategory[] = [
         name: "",
         description: "",
         image: "/images/0028.jpg",
+      },
+      {
+        name: "",
+        description: "",
+        image: "/images/002.jpg",
       },
       {
         name: "",
