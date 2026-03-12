@@ -12,13 +12,13 @@ const products = [
     title: "Machinery Components",
     description:
       "CNC machined tool holders, spindle parts, jigs, fixtures, and precision components for industrial machinery and equipment.",
-    image: "/images/machiene-tool-bg.png",
+    image: "/images/mtc-bg.png",
   },
   {
     title: "Pipe Fittings & Pump Parts",
     description:
       "Industrial-grade pipe fittings, flanges, valve bodies, pump impellers, and custom cast components for fluid handling systems.",
-    image: "/images/pip-fiiting-bg.png",
+    image: "/images/pp-bg.png",
 
     specifications: [
       "Standard: IS 1239 PT 2 & BS 21:1985",

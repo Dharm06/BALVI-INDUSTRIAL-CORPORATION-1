@@ -41,10 +41,7 @@ export function ProductCard({ name, description, image }: ProductCardProps) {
           className="w-full border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground"
         >
           <a
-            href={`https://wa.me/919824248209?text=${encodeURIComponent(
-              `Hello Balvi Industrial Corporation,%0A%0AI am interested in ${name}.%0APlease share more details.%0A%0AThank you.`,
-            )}`}
-            target="_blank"
+            href={`mailto:info@balviindustrialcorporation.com?subject=${encodeURIComponent(`Inquiry about ${name}`)}&body=${encodeURIComponent(`Hello Balvi Industrial Corporation,\n\nI am interested in ${name}.\nPlease share more details.\n\nThank you.`)}`}
           >
             Send Inquiry
           </a>
