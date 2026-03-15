@@ -1,20 +1,19 @@
-import type { Metadata } from "next"
-import Link from "next/link"
-import { Navbar } from "@/components/navbar"
-import { PageBanner } from "@/components/page-banner"
-import { Footer } from "@/components/footer"
-import { SpecStandardCard } from "@/components/spec-standard-card"
-import { ComparisonTable } from "@/components/comparison-table"
-import { DownloadSpecButton } from "@/components/download-spec-button"
-import { Badge } from "@/components/ui/badge"
-import { standards, materialComparison } from "@/lib/specs-data"
-import { ShieldCheck, Award, Cog, ArrowRight } from "lucide-react"
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Navbar } from "@/components/navbar";
+import { PageBanner } from "@/components/page-banner";
+import { Footer } from "@/components/footer";
+import { SpecStandardCard } from "@/components/spec-standard-card";
+import { DownloadSpecButton } from "@/components/download-spec-button";
+import { Badge } from "@/components/ui/badge";
+import { standards } from "@/lib/specs-data";
+import { ShieldCheck, Award, Cog, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Technical Specifications | Balvi Industrial Corporation",
   description:
     "Detailed technical specifications for our precision-engineered pipe fittings and components. Compliant with IS 1239 PT 2, BS 21:1985, and ASTM A865 standards.",
-}
+};
 
 const highlights = [
   {
@@ -32,7 +31,7 @@ const highlights = [
     label: "CNC Precision",
     description: "All threads machined on CNC equipment",
   },
-]
+];
 
 export default function SpecificationsPage() {
   return (
@@ -56,8 +55,12 @@ export default function SpecificationsPage() {
                     <item.icon className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-card-foreground">{item.label}</p>
-                    <p className="text-xs text-muted-foreground">{item.description}</p>
+                    <p className="text-sm font-semibold text-card-foreground">
+                      {item.label}
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -69,20 +72,20 @@ export default function SpecificationsPage() {
         {/* Standards Navigation */}
         <section className="bg-background py-6">
           <div className="mx-auto flex max-w-7xl items-center gap-3 px-6">
-            <span className="text-sm font-medium text-muted-foreground">Jump to:</span>
+            <span className="text-sm font-medium text-muted-foreground">
+              Jump to:
+            </span>
             <div className="flex flex-wrap items-center gap-2">
               {standards.map((standard) => (
                 <Badge key={standard.id} variant="outline" asChild>
-                  <Link href={`#${standard.id}`} className="cursor-pointer transition-colors hover:bg-primary/10 hover:border-primary/30 hover:text-primary">
+                  <Link
+                    href={`#${standard.id}`}
+                    className="cursor-pointer transition-colors hover:bg-primary/10 hover:border-primary/30 hover:text-primary"
+                  >
                     {standard.name}
                   </Link>
                 </Badge>
               ))}
-              <Badge variant="outline" asChild>
-                <Link href="#comparison" className="cursor-pointer transition-colors hover:bg-primary/10 hover:border-primary/30 hover:text-primary">
-                  Comparison
-                </Link>
-              </Badge>
             </div>
           </div>
         </section>
@@ -93,10 +96,6 @@ export default function SpecificationsPage() {
             {standards.map((standard) => (
               <SpecStandardCard key={standard.id} spec={standard} />
             ))}
-
-            <div id="comparison" className="scroll-mt-24">
-              <ComparisonTable data={materialComparison} />
-            </div>
           </div>
         </section>
 
@@ -107,9 +106,9 @@ export default function SpecificationsPage() {
               Need Custom Specifications?
             </h2>
             <p className="max-w-xl text-muted-foreground text-pretty">
-              We manufacture components to custom specifications and can accommodate
-              special material grades, coatings, and tolerances. Contact our engineering
-              team to discuss your requirements.
+              We manufacture components to custom specifications and can
+              accommodate special material grades, coatings, and tolerances.
+              Contact our engineering team to discuss your requirements.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link
@@ -131,5 +130,5 @@ export default function SpecificationsPage() {
       </main>
       <Footer />
     </>
-  )
+  );
 }

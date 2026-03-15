@@ -6,13 +6,13 @@ const products = [
     title: "Automobile Components",
     description:
       "High-precision engine parts, transmission components, suspension elements, and custom auto parts manufactured to exacting OEM standards.",
-    image: "/images/automobile-bg.png",
+    image: "/images/mtc-bg.png",
   },
   {
     title: "Machinery Components",
     description:
       "CNC machined tool holders, spindle parts, jigs, fixtures, and precision components for industrial machinery and equipment.",
-    image: "/images/mtc-bg.png",
+    image: "/images/auto.png",
   },
   {
     title: "Pipe Fittings & Pump Parts",
