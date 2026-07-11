@@ -33,7 +33,7 @@ export function CtaSection() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-base"
           >
-            <a href="mailto:info@balviindustrialcorporation.com">
+            <a href="https://wa.me/918866048209" target="_blank" rel="noopener noreferrer">
               Request a Quote
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>

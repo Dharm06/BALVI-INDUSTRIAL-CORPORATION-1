@@ -121,18 +121,6 @@ export function Footer() {
                     href="tel:+919876543211"
                     className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
                   >
-                    +91 98242 48209
-                  </a>
-                  <a
-                    href="tel:+919898048209"
-                    className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
-                  >
-                    +91 98980 48209
-                  </a>
-                  <a
-                    href="tel:+919876543211"
-                    className="text-sm text-primary-foreground/60 transition-colors hover:text-primary"
-                  >
                     +91 88660 48209
                   </a>
                 </div>

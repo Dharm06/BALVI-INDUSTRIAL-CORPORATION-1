@@ -131,7 +131,7 @@ export default function ProcessesPage() {
             </p>
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                <Link href="/#contact">Request a Quote</Link>
+                <a href="https://wa.me/918866048209" target="_blank" rel="noopener noreferrer">Request a Quote</a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
                 <Link href="/products">View Products</Link>
