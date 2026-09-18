@@ -16,7 +16,7 @@ const stats = [
   },
   {
     icon: Award,
-    value: "100+",
+    value: "1200+",
     label: "Products",
     description: "Wide range of precision components",
   },
